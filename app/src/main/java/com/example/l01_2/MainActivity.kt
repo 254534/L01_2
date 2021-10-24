@@ -21,6 +21,11 @@ class MainActivity : AppCompatActivity() {
         button3.setOnClickListener(mainListener)
     }
 
+    fun runActivity3(view: View) {
+        val myIntent = Intent(this, Activity3::class.java)
+        startActivity(myIntent)
+    }
+
     val mainListener = View.OnClickListener { view ->
         when (view.getId()) {
             R.id.button3_m -> {
