@@ -8,6 +8,7 @@
     <string name="act2_radiobutton1">Radiobutton 1</string>
     <string name="act2_radiobutton2">Radiobutton 2</string>
     <string name="act2_togglebutton1">Togglebutton</string>
-    <string name="actM_text1">wyśrodkowany krótki opis</string>
-    <string name="actM_text2">Kamila Sproska</string>
+    <string name="act2_text1_2">text</string>
+    <string name="actM_text1_M">wyśrodkowany krótki opis</string>
+    <string name="actM_text2_M">Kamila Sproska</string>
 </resources>

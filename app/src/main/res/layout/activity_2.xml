@@ -39,7 +39,7 @@
         android:id="@+id/textView1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/act2_text1_2"
         app:layout_constraintBottom_toTopOf="@+id/tableRow"
         tools:layout_editor_absoluteX="83dp" />
 
