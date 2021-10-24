@@ -10,6 +10,8 @@ class Activity4 : AppCompatActivity() {
         setContentView(R.layout.activity_4)
     }
 
+    // closing activity: requires setting android:onClick in xml and android::parentActivityName in
+    // AndroidManifest
     fun finishActivity3(view: View?) {
         finish()
     }
