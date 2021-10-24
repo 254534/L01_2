@@ -7,21 +7,61 @@
     android:layout_height="match_parent"
     tools:context=".Activity2">
 
-  <RadioGroup
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content">
-          <RadioButton
-              android:id="@+id/radioButton1_2"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:text="@string/act2_radiobutton1"
-              />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
 
-          <RadioButton
-              android:id="@+id/radioButton2_2"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:text="@string/act2_radiobutton2"
-              />
-      </RadioGroup>
+        <RadioButton
+            android:id="@+id/radioButton1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act2_radiobutton1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act2_radiobutton2" />
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/toggleButton1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/act2_togglebutton1"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+        android:id="@+id/textView1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        tools:layout_editor_absoluteX="83dp" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <Button
+            android:id="@+id/button1_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/act2_button1" />
+
+        <Button
+            android:id="@+id/button2_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/act2_button2" />
+    </TableRow>
 </androidx.constraintlayout.widget.ConstraintLayout>
