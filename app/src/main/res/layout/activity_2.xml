@@ -8,13 +8,14 @@
     tools:context=".Activity2">
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGroup1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/radioButton1_2"
+            android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/act2_radiobutton1" />
