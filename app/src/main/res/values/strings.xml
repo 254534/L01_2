@@ -1,14 +1,19 @@
 <resources>
-    <string name="app_name">L01_2</string>
+    <string name="app_name">Nazwa aplikacji</string>
+
     <string name="actM_button1">1</string>
     <string name="actM_button2">2</string>
     <string name="actM_button3">3</string>
-    <string name="act2_button1">Toast</string>
-    <string name="act2_button2">Back</string>
-    <string name="act2_radiobutton1">Radiobutton 1</string>
-    <string name="act2_radiobutton2">Radiobutton 2</string>
-    <string name="act2_togglebutton1">Togglebutton</string>
-    <string name="act2_text1_2">text</string>
     <string name="actM_text1_M">wyśrodkowany krótki opis</string>
     <string name="actM_text2_M">Kamila Sproska</string>
+
+    <string name="act2_button1">Toast</string>
+    <string name="act2_button2">Back</string>
+    <string name="act2_radiobutton1">visible</string>
+    <string name="act2_radiobutton2">invisible</string>
+    <string name="act2_togglebutton1">Togglebutton</string>
+    <string name="act2_text1_2_on">on</string>
+    <string name="act2_text1_2_off">off</string>
+
+    <string name="act4_button1">Back</string>
 </resources>
