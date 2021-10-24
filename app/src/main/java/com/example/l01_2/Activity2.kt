@@ -19,7 +19,15 @@ class Activity2 : AppCompatActivity() {
         button2.setOnClickListener(act2Listener)
         radiobutton1.setOnClickListener(act2Listener)
         radiobutton2.setOnClickListener(act2Listener)
-        toggleButton1.setOnClickListener(act2Listener)
+        val textView: TextView = findViewById(R.id.textView1_2)
+        val imageView: ImageView = findViewById(R.id.imageView1_2)
+        toggleButton1.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                textView.setText(R.string.act2_text1_2_on)
+            } else {
+                textView.setText(R.string.act2_text1_2_off)
+            }
+        }
     }
 
     val act2Listener = View.OnClickListener { view ->
@@ -33,16 +41,18 @@ class Activity2 : AppCompatActivity() {
                 toast.show()
             }
             R.id.button2_2 -> onBackPressed()
+
             R.id.radioButton1_2 -> {
                 val textView: TextView = findViewById(R.id.textView1_2)
+                val imageView: ImageView = findViewById(R.id.imageView1_2)
                 textView.visibility = View.VISIBLE
+                imageView.visibility = View.VISIBLE
             }
             R.id.radioButton2_2 -> {
                 val textView: TextView = findViewById(R.id.textView1_2)
+                val imageView: ImageView = findViewById(R.id.imageView1_2)
                 textView.visibility = View.INVISIBLE
-            }
-            R.id.toggleButton1_2 -> {
-
+                imageView.visibility = View.INVISIBLE
             }
         }
     }

@@ -29,6 +29,7 @@
 
     <ToggleButton
         android:id="@+id/toggleButton1_2"
+        android:checked="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/act2_togglebutton1"
@@ -36,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-      <TextView
+    <TextView
         android:id="@+id/textView1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,6 +57,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="3dp"
             android:text="@string/act2_button1" />
 
         <Button
@@ -63,6 +65,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="3dp"
             android:text="@string/act2_button2" />
     </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView1_2"
+        android:layout_width="259dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_crop" />
 </androidx.constraintlayout.widget.ConstraintLayout>
