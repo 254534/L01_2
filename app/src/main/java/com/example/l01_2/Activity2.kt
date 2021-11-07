@@ -22,11 +22,9 @@ class Activity2 : AppCompatActivity() {
         val textView: TextView = findViewById(R.id.textView1_2)
         val imageView: ImageView = findViewById(R.id.imageView1_2)
         toggleButton1.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                textView.setText(R.string.act2_text1_2_on)
-            } else {
-                textView.setText(R.string.act2_text1_2_off)
-            }
+            val resVal: CharSequence = if (isChecked) getResources().getString(R.string.act2_text1_2_on)
+            else getResources().getString(R.string.act2_text1_2_off)
+            textView.setText(resVal)
         }
     }
 
@@ -34,8 +32,14 @@ class Activity2 : AppCompatActivity() {
         when(view.getId()) {
             R.id.button1_2 -> {
                 // notification popup
+                val textView: TextView = findViewById(R.id.textView1_2)
+                val toggleButton1: ToggleButton = findViewById(R.id.toggleButton1_2)
+                val resVal =
+                    if (toggleButton1.isChecked) getResources().getString(R.string.act2_text1_2_on)
+                    else getResources().getString(R.string.act2_text1_2_off)
                 val toast: Toast = Toast.makeText(this,
-                    "This is my notification",
+                    "RADIOBUTTONS: ${if (textView.visibility == View.VISIBLE) "visible" else "invisible"} " +
+                            "\nTOGGLEBUTTON: ${resVal}",
                     Toast.LENGTH_LONG)
                 toast.setGravity(Gravity.CENTER, 0, 0)
                 toast.show()
