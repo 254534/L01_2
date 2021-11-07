@@ -198,6 +198,7 @@
 
             <Button
                 android:id="@+id/act3_button_back"
+                android:onClick="finishActivity3"
                 android:textSize="22sp"
                 android:layout_width="0dp"
                 android:layout_weight="1"
