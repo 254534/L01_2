@@ -13,6 +13,6 @@ class Activity4 : AppCompatActivity() {
     // closing activity: requires setting android:onClick in xml and android::parentActivityName in
     // AndroidManifest
     fun finishActivity4(view: View?) {
-        finish()
+        onBackPressed()
     }
 }
