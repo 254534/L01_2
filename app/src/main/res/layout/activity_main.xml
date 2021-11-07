@@ -15,6 +15,12 @@
         android:gravity="center"
         android:text="@string/actM_text1_M" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/z2" />
+
     <TextView
         android:id="@+id/textView2_m"
         android:layout_width="match_parent"
