@@ -16,4 +16,17 @@
     <string name="act2_text1_2_off">off</string>
 
     <string name="act4_button1">Back</string>
+    <string name="act3_text1">name</string>
+    <string name="act3_text2">e-mail</string>
+    <string name="act3_text3">phone</string>
+    <string name="act3_text4">weight</string>
+    <string name="act3_text5">height</string>
+    <string name="act3_button_bmi">BMI</string>
+    <string name="act3_button_back">back</string>
+
+    <string name="act3_edittext1">Kamila Sproska</string>
+    <string name="act3_edittext2">kamila.sproska@gmail.com</string>
+    <string name="act3_edittext3">+48 794 707 958</string>
+    <string name="act3_edittext4">74.5</string>
+    <string name="act3_edittext5">171.6</string>
 </resources>
