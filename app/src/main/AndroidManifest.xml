@@ -10,18 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.L01_2">
         <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:parentActivityName=".Activity3"/>/>
+        <activity
             android:name=".Activity4"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Activity3"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>/>
         <activity
             android:name=".Activity2"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>/>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

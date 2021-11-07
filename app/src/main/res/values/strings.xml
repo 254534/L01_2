@@ -27,6 +27,7 @@
     <string name="act3_edittext1">Kamila Sproska</string>
     <string name="act3_edittext2">kamila.sproska@gmail.com</string>
     <string name="act3_edittext3">+48 794 707 958</string>
-    <string name="act3_edittext4">74.5</string>
-    <string name="act3_edittext5">171.6</string>
+    <string name="act3_edittext4">63.5</string>
+    <string name="act3_edittext5">1.78</string>
+    <string name="act5_button_cal">Calculate</string>
 </resources>
