@@ -44,11 +44,12 @@
         android:text="@string/act2_text1_2_on"
         android:textSize="96sp"
         app:layout_constraintBottom_toTopOf="@+id/tableRow"
-        tools:layout_editor_absoluteX="83dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TableRow
         android:id="@+id/tableRow"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="1dp">
@@ -72,10 +73,10 @@
 
     <ImageView
         android:id="@+id/imageView1_2"
-        android:layout_width="259dp"
-        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:layout_height="259dp"
         app:layout_constraintBottom_toTopOf="@+id/tableRow"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_crop" />
+        app:srcCompat="@drawable/z1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

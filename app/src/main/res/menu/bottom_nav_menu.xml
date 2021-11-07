@@ -4,11 +4,14 @@
 
     <item
         android:id="@+id/button1_m"
+        android:icon="?attr/actionModeCloseDrawable"
         android:title="@string/actM_button1" />
     <item
         android:id="@+id/button2_m"
+        android:icon="?attr/actionModePasteDrawable"
         android:title="@string/actM_button2" />
     <item
         android:id="@+id/button3_m"
+        android:icon="@android:drawable/ic_media_play"
         android:title="@string/actM_button3" />
 </menu>

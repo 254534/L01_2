@@ -13,7 +13,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/actM_text1_M" />
+        android:text="@string/actM_text1_M"
+        android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,14 +28,17 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:gravity="center"
-        android:text="@string/actM_text2_M" />
+        android:text="@string/actM_text2_M"
+        android:textSize="24sp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        app:itemIconTint="@color/white"
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:menu="@menu/bottom_nav_menu"/>
+        app:itemIconSize="50dp"
+        app:menu="@menu/bottom_nav_menu" />
 
 <!--        <TableRow-->
 <!--        android:layout_width="match_parent"-->

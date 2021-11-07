@@ -12,7 +12,7 @@
         <activity
             android:name=".MainActivity5"
             android:exported="false"
-            android:parentActivityName=".Activity3"/>/>
+            android:parentActivityName=".Activity3"/>
         <activity
             android:name=".Activity4"
             android:exported="false"
@@ -20,13 +20,14 @@
         <activity
             android:name=".Activity3"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>/>
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".Activity2"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>/>
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.L01_2_2"
             android:exported="true"
             >
             <intent-filter>
