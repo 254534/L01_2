@@ -30,4 +30,6 @@
     <string name="act3_edittext4">63.5</string>
     <string name="act3_edittext5">1.78</string>
     <string name="act5_button_cal">Calculate</string>
+    <string name="act4_progress">Progress : 0</string>
+    <string name="act4_progress_to_fill">Progress : </string>
 </resources>
