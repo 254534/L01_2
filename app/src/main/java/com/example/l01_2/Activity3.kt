@@ -43,11 +43,11 @@ class Activity3 : AppCompatActivity() {
                 if (valBmi != null) {
                     val weight: EditText = findViewById<EditText>(R.id.act3_edittext4)
                     val height: EditText = findViewById<EditText>(R.id.act3_edittext5)
-                    val bmi: TextView = findViewById<EditText>(R.id.act3_text_bmi)
+                    val bmi: TextView = findViewById<TextView>(R.id.act3_text_bmi)
 
                     weight.text = Editable.Factory.getInstance().newEditable(valW.toString())
                     height.text = Editable.Factory.getInstance().newEditable(valH.toString())
-                    bmi.text = Editable.Factory.getInstance().newEditable(valBmi.toString())
+                    bmi.text = valBmi.toString()
                 }
             }
         }

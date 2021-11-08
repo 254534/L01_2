@@ -13,7 +13,7 @@ class MainActivity5 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main5)
 
-        val iii: Intent = getIntent()
+        val iii: Intent = intent
         val bundle = iii.extras
         var valW:Double? = bundle?.getDouble("valW",0.0)
         var valH:Double? = bundle?.getDouble("valH",0.0)
