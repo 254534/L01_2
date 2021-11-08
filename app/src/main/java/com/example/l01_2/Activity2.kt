@@ -26,6 +26,12 @@ class Activity2 : AppCompatActivity() {
             else getResources().getString(R.string.act2_text1_2_off)
             textView.setText(resVal)
         }
+        val checkBox: CheckBox = findViewById(R.id.checkBox)
+        checkBox.setOnCheckedChangeListener { buttonView, isChecked ->
+            val resVal: CharSequence = if (isChecked) getResources().getString(R.string.act2_text1_2_on)
+            else getResources().getString(R.string.act2_text1_2_off)
+            textView.setText(isChecked.toString())
+        }
     }
 
     val act2Listener = View.OnClickListener { view ->

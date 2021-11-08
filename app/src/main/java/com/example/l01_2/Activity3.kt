@@ -4,10 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
+import android.view.Gravity
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 
@@ -52,7 +54,12 @@ class Activity3 : AppCompatActivity() {
             }
         }
 
+
     fun finishActivity3(view: View?) {
+//        val bundle = Bundle()
+//        bundle.putBoolean("temp", true)
+//        val intent = Intent(this, MainActivity::class.java)
+//        intent.putExtras(bundle)
         onBackPressed()
     }
 }
