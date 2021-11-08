@@ -18,3 +18,5 @@ Aktywność zawiera ScrollView.
 6. Co najmniej jedna aktywność powinna nie być pochodną AppCompat (ekran powinien mieć motyw inny niż dla AppCompat) i mieć zmieniony motyw (theme).
 7. Powrót jest zrobiony przyciskiem na ekranie i w pasku aktywności.
 8. Dodaj w aplikacji możliwość uruchomienia jej poprzez unikalna własną akcje (patrz punkt poniżej).
+
+![image](https://user-images.githubusercontent.com/61067969/140713441-c2218c41-4b8e-47ab-9b37-17fff746e832.png)
