@@ -1,3 +1,5 @@
+AKTYWNOŚCI: https://github.com/254534/L01_2/tree/master/app/src/main/java/com/example/l01_2
+
 Przygotować aplikację z ekranem głównym i ekranami dodatkowymi o następujących cechach i zawartości (patrz rys.):
 
 1. Ekran (aktywność) główny jest realizowany układami linearnymi.
